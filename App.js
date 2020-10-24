@@ -1,14 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
+
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import add2numbers from './components/add1.jsx';
 
-export default function App() {
-    return ( <View style = { styles.container }>
-        <Text> Add two numbers </Text> <
-        StatusBar style = "auto" / >
-        </View>
-    );
-}
 
 const styles = StyleSheet.create({
     container: {
@@ -19,11 +13,13 @@ const styles = StyleSheet.create({
     },
 });
 
+
 export default function App() {
-    return (
-      <View style={styles.container}>
-        <Add/>
-      </View>
+    return ( <View style = { styles.container }>
+        <Text> Add two numbers </Text> 
+        <add2numbers/>
+        </View>
     );
-  }
-  
+}
+
+
