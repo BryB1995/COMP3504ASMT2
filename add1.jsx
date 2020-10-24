@@ -84,4 +84,4 @@ onChangeText={
 
 };
 
-export default Add;
+export default add2numbers;
